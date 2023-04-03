@@ -3,6 +3,8 @@ import { Link, useSearchParams } from "react-router-dom";
 
 function Home() {
     const [readSearchParams, setSearchParams] = useSearchParams();
+    console.log(readSearchParams);
+    
     return (
         <div>
             <h1>users</h1>
